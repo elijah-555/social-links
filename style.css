@@ -36,6 +36,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: animate-profile-picture 2000ms 200ms backwards;
 }
 
 .name {
@@ -92,13 +93,21 @@ p {
   margin-top: 12px;
   display: flex;
   justify-content: center;
-  padding: 20px 0;
 }
 
 .link {
   text-decoration: none;
   color: white;
   font-weight: 600;
+  padding: 24px 188px;
+}
+
+.link__frontend {
+  padding: 24px 148px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  text-align: center;
 }
 
 @keyframes fade-in {
